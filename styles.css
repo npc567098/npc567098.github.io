@@ -1,0 +1,148 @@
+body {
+    background-color: #a0a0a0;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+}
+.wrapper {
+    border: 2px solid white;
+    border-radius: 20px;
+    margin: 200px 10px 10px 10px;
+    padding: 40px;
+}
+.wrapper .btn1 {
+    height: 100px;
+    width: 100px;
+    background-color: #ffbd00;
+    border: 2px solid #ffbd00;
+    border-radius: 20px;
+}
+.wrapper .btn2 {
+    height: 100px;
+    width: 100px;
+    background-color: #ffbd00;
+    border: 2px solid #ffbd00;
+    border-radius: 20px;
+}
+.wrapper .btn0 {
+    display: none;
+}
+.wrapper .btn3 {
+    height: 100px;
+    width: 100px;
+    background-color: #fff400;
+    border: 2px solid #fff400;
+    border-radius: 20px;
+}
+.wrapper .btn4 {
+    height: 100px;
+    width: 100px;
+    background-color: #fff400;
+    border: 2px solid #fff400;
+    border-radius: 20px;
+}
+.btn5 {
+    width: 400px;
+    height: 30px;
+    background-color: #00ff12;
+    border: 2px solid #00ff12;
+    border-radius: 20px;
+    margin: 30px 0px 0px 0px
+}
+.wrapper .btn10 {
+    height: 100px;
+    width: 100px;
+    background-color: #ffbd00;
+    border: 2px solid #ffbd00;
+    border-radius: 20px;
+}
+.wrapper .btn11 {
+    height: 100px;
+    width: 100px;
+    background-color: #ffbd00;
+    border: 2px solid #ffbd00;
+    border-radius: 20px;
+}
+.btn5:hover {
+    transform: scale(1.2);
+    transition-duration: 0.2s;
+    border: 5px solid blue;
+}
+.btn5:active {
+    transform: scale(1);
+    transition-duration: 0.2s;
+    border: 5px solid blue;
+}
+.btn4:hover {
+    transform: scale(1.2);
+    transition-duration: 0.2s;
+    border: 5px solid red;
+}
+.btn4:active {
+    transform: scale(1);
+    transition-duration: 0.2s;
+    border: 5px solid red;
+}
+.btn3:hover {
+    transform: scale(1.2);
+    transition-duration: 0.2s;
+    border: 5px solid red;
+}
+.btn3:active {
+    transform: scale(1);
+    transition-duration: 0.2s;
+    border: 5px solid red;
+}
+.btn2:hover {
+    transform: scale(1.2);
+    transition-duration: 0.2s;
+    border: 5px solid red;
+}
+.btn2:active {
+    transform: scale(1);
+    transition-duration: 0.2s;
+    border: 5px solid red;
+}
+.btn1:hover {
+    transform: scale(1.2);
+    transition-duration: 0.2s;
+    border: 5px solid red;
+}
+.btn1:active {
+    transform: scale(1);
+    transition-duration: 0.2s;
+    border: 5px solid red;
+}
+.btn10:hover {
+    transform: scale(1.2);
+    transition-duration: 0.2s;
+    border: 5px solid red;
+}
+.btn10:active {
+    transform: scale(1);
+    transition-duration: 0.2s;
+    border: 5px solid red;
+}
+.btn11:hover {
+    transform: scale(1.2);
+    transition-duration: 0.2s;
+    border: 5px solid red;
+}
+.btn11:active {
+    transform: scale(1);
+    transition-duration: 0.2s;
+    border: 5px solid red;
+}
+.wrapper .h13 {
+    font-size: 40px;
+    border: 2px solid white;
+    border-radius: 20px;
+}
+.wrapper .pribab {
+    font-size: 23px;
+}
+.wrapper .btnall {
+    align-content: center;
+    text-align: center;
+    align-items: center;
+}

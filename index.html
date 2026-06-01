@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title></title>
+        <link rel="stylesheet" href="styles.css" />
+        <script>
+            alert("Привет!!!");
+            var num = 0;
+            var up = 1;
+            function plus() {
+                document.getElementById("prib").textContent = "Прибавляется: " + up;
+                num = num + up;
+                document.getElementById("click").textContent = num;
+            }
+            function minus() {
+                document.getElementById("prib").textContent = "Убавляется: " + up;
+                num = num - up;
+                document.getElementById("click").textContent = num;
+            }
+            function admin() {
+                if (document.getElementById("all").classList.contains("btn0")) {
+                    document.getElementById("all").classList.remove("btn0");
+                    document.getElementById("all").classList.add("btn3");
+                    document.getElementById("al").classList.remove("btn0");
+                    document.getElementById("al").classList.add("btn4");
+                } else {
+                    document.getElementById("all").classList.remove("btn3");
+                    document.getElementById("all").classList.add("btn0");
+                    document.getElementById("al").classList.remove("btn4");
+                    document.getElementById("al").classList.add("btn0");
+                }
+            }
+            function prib() {
+                up = up + 1;
+                document.getElementById("prib").textContent = "Прибавляется: " + up;
+            }
+            function ub() {
+                up = up - 1;
+                document.getElementById("prib").textContent = "Прибавляется: " + up;
+            }
+            function r() {
+                num = 0;
+                document.getElementById("click").textContent = num;
+            }
+            function ar() {
+                num = 0;
+                up = 1;
+                document.getElementById("click").textContent = num;
+                document.getElementById("prib").textContent = "Прибавляется: " + up;
+            }
+        </script>
+    </head>
+    <body>
+        <div class="wrapper">
+            <h1 class="h12">Указатель значения</h1>
+            <div class="h1">
+                <h1 id="click" class="h13">0</h1>
+                <h3 id="prib" class="pribab">Прибавляется: 1</h3>
+            </div>
+            <div class="btnall">
+            <button id="plus" class="btn1" onclick="plus()">прибавить</button>
+            <button id="minus" class="btn2" onclick="minus()">убавить</button>
+            <button id="all" class="btn0" onclick="prib()">+</button>
+            <button id="al" class="btn0" onclick="ub()">-</button>
+            <button class="btn10" onclick="r()">reset</button>
+            <button class="btn11" onclick="ar()">all reset</button>
+            
+                </div>
+        </div>
+        <button id="hide" class="btn5" onclick="admin()">Admin-panel</button>
+    </body>
+</html>
